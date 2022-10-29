@@ -16,7 +16,7 @@
 		<p class="text-field__label1"><b>Координаты и длина вектора</b></p>
 		<style>
 			table.text  {
-			 width:  40%; /* Ширина таблицы */
+			 width:  100%; /* Ширина таблицы */
 			 border-spacing: 0; /* Расстояние между ячейками */
 			}
 			table.textik  {
