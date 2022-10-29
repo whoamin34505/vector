@@ -40,8 +40,8 @@ if (z1 == 0 && z2 == 0) {
     coordsy = y2 - y1
     length = Math.abs((coordsx * coordsx)) + Math.abs((coordsy * coordsy))
     koren = Math.sqrt (length)
-    centerx = (x1 + x2)/2;
-    centery = (y1 + y2)/2;
+    centerx = (Number(x1) + Number(x2))/2;
+    centery = (Number(y1) + Number(y2))/2;
     center = 'Центр: <b>' + centerx + '; ' + centery + '</b>'
     var coordsv = 'Координаты вектора: <b>' + coordsx + '; ' + coordsy + '</b>'
     var dlin = 'Длина вектора: <b>' + '√' + coordsx + '<sup>2</sup>' + ' + √' + coordsy + '<sup>2</sup>' + ' = ' + length + ' = ' + koren + '</b>'
@@ -53,9 +53,9 @@ if (z1 == 0 && z2 == 0) {
     what = Number(z2) - Number(z1);
     length = Math.abs((coordsx * coordsx)) + Math.abs((coordsy * coordsy)) + Math.abs((what * what))
     koren = Math.sqrt (length)
-    centerx = (x1 + x2)/2;
-    centery = (y1 + y2)/2;
-    centerz = (z1 + z2)/2;
+    centerx = (Number(x1) + Number(x2))/2;
+    centery = (Number(y1) + Number(y2))/2;
+    centerz = (Number(z1) + Number(z2))/2;
     center = 'Центр: <b>' + centerx + '; ' + centery + '; ' + centerz + '</b>'
     var coordsv = 'Координаты вектора: <b>' + coordsx + '; ' + coordsy + '; ' + what + '</b>'
     var dlin = 'Длина вектора: <b>' + '√' + coordsx + '<sup>2</sup>' + '+ √' + coordsy + '<sup>2</sup>' + ' + ' + '√' + what + '<sup>2</sup>' + ' = ' + length + ' = ' + koren + '</b>'
