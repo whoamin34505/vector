@@ -38,23 +38,19 @@
 		   </style>
 		<table class="text" align="center"> 
 			<tr>
-			<td class="1te" style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">Координаты начальной точки: </td>
-			<td class="2te" style="text-align: left; ; font-family: 'Comfortaa', cursive; width=50%	">Координаты конечной точки:</td>
+			<td class="1te"style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">
+			Координаты начальной точки: 
+			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
+			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
+			</td>
+			<td class="2te" style="text-align: left; ; font-family: 'Comfortaa', cursive; width=50%	">
+			Координаты конечной точки:
+			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
+			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
+			</td>
 			</tr>
 	</table>  
-	<table class="textik" align="center"> 
-		<tr>
-			<td class="1tet">
-		<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
-		<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
-	</td>
-		<br>
-	<td class="2tet">
-		<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
-		<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
-	</td>
-	</tr>
-</table> 
+	
 	<br><br>
  <button class="btn1">Расчитать</button> 
  <br>
