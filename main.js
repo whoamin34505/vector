@@ -44,7 +44,7 @@ if (z1 == 0 && z2 == 0) {
     centery = (y1 + y2)/2;
     center = 'Центр: <b>' + centerx + '; ' + centery + '</b>'
     var coordsv = 'Координаты вектора: <b>' + coordsx + '; ' + coordsy + '</b>'
-    var dlin = 'Длина вектора: <b>' + '√' + coordsx + '<sup>2</sup>' + '√' + coordsy + '<sup>2</sup>' + ' = ' + length + ' = ' + koren + '</b>'
+    var dlin = 'Длина вектора: <b>' + '√' + coordsx + '<sup>2</sup>' + ' + √' + coordsy + '<sup>2</sup>' + ' = ' + length + ' = ' + koren + '</b>'
 } else {
     var chlen = 0;
     console.log (z1 + '; ' + z2)
