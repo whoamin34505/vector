@@ -38,7 +38,7 @@
 		   </style>
 		<table class="text" align="center"> 
 			<tr>
-		<td class="1te"style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">Координаты начальной точки: </td>
+			<td class="1te" style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">Координаты начальной точки: </td>
 			<td class="2te" style="text-align: left; ; font-family: 'Comfortaa', cursive; width=50%	">Координаты конечной точки:</td>
 			</tr>
 	</table>  
