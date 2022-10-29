@@ -38,12 +38,12 @@
 		   </style>
 		<table class="text" align="center"> 
 			<tr>
-			<td class="1te"style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">
+			<td class="1te" style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">
 			Координаты начальной точки: 
 			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
 			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
 			</td>
-			<td class="2te" style="text-align: left; ; font-family: 'Comfortaa', cursive; width=50%	">
+			<td class="2te" style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">
 			Координаты конечной точки:
 			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
 			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
