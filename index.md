@@ -14,6 +14,7 @@
 	<p class="text" style="font-size: 15px"><em>По мере получения информации страница будет обновлятся...</em></p>
 	<br>
 		<p class="text-field__label1"><b>Координаты и длина вектора</b></p>
+		<p class="text"><em>Если нет координаты z, тогда оставьте это поле пустым</em></p>
 		<style>
 			table.text  {
 			 width:  100%; /* Ширина таблицы */
@@ -40,13 +41,15 @@
 			<tr>
 			<td class="1te" style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">
 			Координаты начальной точки: 
-			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
-			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
+			<input class="text-field__input" type="text" name="razmer" id="x1" placeholder="x">
+			<input class="text-field__input" type="text" name="razmer" id="y1" placeholder="y">
+			<input class="text-field__input" type="text" name="razmer" id="z1" placeholder="z">
 			</td>
 			<td class="2te" style="text-align:left; font-family: 'Comfortaa', cursive; width=50%">
 			Координаты конечной точки:
-			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="x">
-			<input class="text-field__input" type="text" name="razmer" id="razmer" placeholder="y">
+			<input class="text-field__input" type="text" name="razmer" id="x2" placeholder="x">
+			<input class="text-field__input" type="text" name="razmer" id="y2" placeholder="y">
+			<input class="text-field__input" type="text" name="razmer" id="z2" placeholder="z">
 			</td>
 			</tr>
 	</table>  
@@ -54,10 +57,17 @@
 	<br><br>
  <button class="btn1">Расчитать</button> 
  <br>
- <h2 class="title">Ответ:</h2>
- 
+ <h2 class="title">Решение и ответ:</h2>
  <div class="answers">
  <div class="out1"></div>
+ <div class="out2"></div>
+ <div class="out3"></div>
+ <div class="out4"></div>
+ <div class="out5"></div>
+ <div class="out6"></div>
+ <div class="out7"></div>
+ <div class="out8"></div>
+ <div class="out9"></div>
  </div>
  <br>
 <script src="main.js"></script>
