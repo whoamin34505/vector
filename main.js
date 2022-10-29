@@ -9,6 +9,14 @@ function sleep(milliseconds) {
   }
 
 function myClick() {
+document.querySelector('.out1').innerHTML = '';
+document.querySelector('.out2').innerHTML = '';
+document.querySelector('.out3').innerHTML = '';
+document.querySelector('.out4').innerHTML = '';
+document.querySelector('.out5').innerHTML = '';
+document.querySelector('.out6').innerHTML = '';
+document.querySelector('.out7').innerHTML = '';
+document.querySelector('.out8').innerHTML = '';
 var x1 = document.getElementById('x1').value;
 var y1 = document.getElementById('y1').value;
 z1 = document.getElementById('z1').value;
