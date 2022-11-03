@@ -67,10 +67,10 @@ let out4 = '<img src="1.png" width=300px style="width: 500px; border: 1px solid 
 let out5 = '<img src="2.webp" width=300px style="width: 500px; border: 1px solid #000;border-radius: 10px; box-shadow:5px 5px 10px #2B1015;"></img>'
 document.querySelector('.out1').innerHTML = 'Мудрое дерево начало думать';
 setTimeout(() => { document.querySelector('.out2').innerHTML = out4; }, 1000);
-setTimeout(() => { document.querySelector('.out3').innerHTML = 'Мудрое дерево думает...'; }, 3500);
-setTimeout(() => { document.querySelector('.out4').innerHTML = 'МУДРОЕ ДЕРЕВО ПОДУМАЛО!!!'; }, 5000);
-setTimeout(() => { document.querySelector('.out5').innerHTML = out5; }, 6500);
-setTimeout(() => { document.querySelector('.out6').innerHTML = coordsv; }, 7500);
-setTimeout(() => { document.querySelector('.out7').innerHTML = dlin; }, 8500);
-setTimeout(() => { document.querySelector('.out8').innerHTML = center; }, 9500);
+setTimeout(() => { document.querySelector('.out3').innerHTML = 'Мудрое дерево думает...'; }, 1200);
+setTimeout(() => { document.querySelector('.out4').innerHTML = 'МУДРОЕ ДЕРЕВО ПОДУМАЛО!!!'; }, 1700);
+setTimeout(() => { document.querySelector('.out5').innerHTML = out5; }, 1900);
+setTimeout(() => { document.querySelector('.out6').innerHTML = coordsv; }, 2100);
+setTimeout(() => { document.querySelector('.out7').innerHTML = dlin; }, 2300);
+setTimeout(() => { document.querySelector('.out8').innerHTML = center; }, 2500);
 }
