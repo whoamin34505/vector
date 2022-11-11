@@ -62,13 +62,7 @@ if (z1 == 0 && z2 == 0) {
 }
 let out1 = coordsv
 let out2 = dlin
-let out3 = center
-let out4 = '<img src="1.png" width=300px style="width: 500px; border: 1px solid #000;border-radius: 10px; box-shadow:5px 5px 10px #2B1015;"></img>'
-let out5 = '<img src="2.webp" width=300px style="width: 500px; border: 1px solid #000;border-radius: 10px; box-shadow:5px 5px 10px #2B1015;"></img>'
-document.querySelector('.out1').innerHTML = 'Мудрое дерево начало думать';
-setTimeout(() => { document.querySelector('.out2').innerHTML = out4; }, 1000);
-setTimeout(() => { document.querySelector('.out3').innerHTML = 'Мудрое дерево думает...'; }, 1200);
-setTimeout(() => { document.querySelector('.out4').innerHTML = 'МУДРОЕ ДЕРЕВО ПОДУМАЛО!!!'; }, 1700);
+let out3 = center 
 setTimeout(() => { document.querySelector('.out5').innerHTML = out5; }, 1900);
 setTimeout(() => { document.querySelector('.out6').innerHTML = coordsv; }, 2100);
 setTimeout(() => { document.querySelector('.out7').innerHTML = dlin; }, 2300);
